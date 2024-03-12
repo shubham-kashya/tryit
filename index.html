@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<link rel="stylesheet" type="text/css" href="project.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+	<style>
+    *{box-sizing: border-box; margin: 0; ;}
+.row:after{content: ""; display: table; clear: both;}
+.a70{float: left;width: 70%;padding:15px;}
+.a25{float: left;width: 25%;padding:15px;}
+.a33{float: left;width: 33%;padding:15px;}
+.a30{float: left;width: 30%;padding:15px;}
+.a40{float: left;width: 40%;padding:15px;}
+.a60{float: left;width: 60%;padding:15px;}
+.a60 a{text-decoration: none;color: gray;position: relative;top: 0rem;left: 1rem;font-size: 14px;padding: 1rem;}
+		
+	.menu{position: relative;left: 3rem;top: 0rem;letter-spacing: 1px;}
+		nav{width:100%; }
+    .img{width: 1%;height: 0px;position: relative;left: 47%;top: -5%;}
+
+    h6{text-align: center;}
+    .btn{padding: 10px 30px; border: 1px solid gray;margin: 5px;position: relative;left: 30%;}
+    .btn1{padding: 10px 207px; border: 1px solid gray;position: relative;left: 30.5%;top: -20px;}
+    .bnt1:hover{background-color: darkgray;}
+    .head img{width: 15%;height:200px;position: relative;left: 40%;top: -4rem;position: fixed;}
+    body{background-color:#f2ede6; }
+    #btn1{padding: 8px 45px;top:0rem;position: relative;background-color: #f2ede7;position: fixed;left:52rem; }
+    video{width: 95%; height: 60%;position: relative;left: 2%;top: 0rem;}
+
+.a a{text-decoration: none;color: gray;font-size: 12px;position: relative;left: 1.5rem;}
+.s a{text-decoration: none;color: gray;font-size: 25px;position: relative;left: 1.5rem;font-weight: bold;top: 1rem;}
+.ss a{color: gray;font-size: 14px;position: relative;left: 1.5rem;top: 1rem;}
+.sk1 .a60 img{width: 38rem;height:22rem;position: relative;left: 2rem;}
+.sk1 .a40 img{width: 28rem;height:22rem;position: relative;left:3rem; }
+.sk1 .a60 h4{color: gray;position: relative;left: 2rem;top: 1rem;}
+.sk1 .a60 .par1{color: gray;position: relative;left: 2rem;}
+.sk1 .a40 a{text-decoration: none;color: gray;position: relative;top: 0rem;font-size: 12px;left: 5rem;}
+.sk1 .a40 h5{color: grey;position: relative;left: 5rem;top: 1rem;}
+.sk1 .a40 p{color: grey;position: relative;left: 5rem;top: 1rem;font-size: 15px;}
+.sk1 .a40 li{position: relative;top: 1rem;font-size: 30px;list-style: none;border-bottom: 1px solid gray;}
+.sk1 .a40{background-color: white;height: 35rem}
+
+
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+  height: 20%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: table;
+  position: relative;
+  left: 16rem;
+}
+.cursor {
+  cursor: pointer;
+}
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 5rem;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  position: relative;
+  height: 20%;
+
+}
+
+
+
+
+.column {
+  
+  width: 13.66%;position: relative;left: 3rem;
+
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+.heading{background-color: white;width: 45%;height: 12rem;}
+.heading h6{color: gray;font-size: 16px;text-align: center;position: relative;left: 1rem;top: 1rem;}
+.heading h4{color: ;font-size:;text-align: center;position: relative;left: 1rem;padding: 1rem;top: 1rem;}
+.heading p{color: ;font-size:12px;text-align: center;position: relative;left: 1rem;top: -1px;}
+
+
+.a33 img{width: 100%;position: relative;left: 2rem;}
+.a33 a{text-decoration: none;font-size: 12px;position: relative;top: 1rem;left: 2rem;padding: 5px;color: gray;letter-spacing: 1px;}
+.a33 h5{padding: 2rem 0rem 0rem 2rem;letter-spacing: 1px;}
+.a33 p{position: relative;left: 2rem;letter-spacing: 1px;font-size: 12px;}
+.section3 h2{text-align: center;position: relative;top: 8rem;letter-spacing: 2px;}
+.a60 img{width: 100%;height:28rem;position: relative;left: 1rem;}
+.a40{background-color: white;height: 28rem;margin-top: .9rem}
+
+.section3 h6{font-size: 11px;position: relative;top: 1rem;left: -5rem;letter-spacing: 2px;}
+.section3 h5{position: relative;left: 1.8rem;top: 2rem;}
+.section3 p{position: relative;left: 1.8rem;top: 3rem;font-size: 14px;letter-spacing: 3px;}
+.section3 hr{position: relative;top: 5rem;width: 16rem;left: 1.8rem;}
+.section3  a{color: black;letter-spacing: 2px;font-size: 13px;position: relative;top: -5rem;left: 3.5rem;text-decoration: none;border-bottom: 1px solid black;}
+.section4 h3{text-align:center;letter-spacing:2px;  }
+.section4 h6{text-align: center;font-size: 11px;position: relative;letter-spacing: 2px;left: 0rem;top: 1rem;}
+
+.section4 h5{text-align: center;padding: 25px 0px 0px 20px;letter-spacing: 1px;}
+.section4 p{  text-align: center;letter-spacing: 1.5px;position: relative;left: 2px;}
+.section4 .heading1{background-color: white;position: relative;left: 2rem;}
+.section5 h4{position: relative;left: 2rem;top: 1rem;font-size: 24px;}
+.section5 p{font-size: 13px;letter-spacing: 1px;text-align: center;position: relative;top: -1rem;}
+.section5 button{padding: 0.2rem 4.5rem;float: right;position: relative;top: -4rem;color: white;background-color: black;opacity: .80;right: 1rem;}
+.section5 button:hover{opacity: .74;}
+.section5 {background-color: white;width: 100%;height: 7rem;}
+
+hr{position: relative;left: 2rem;width: 92%;height: 1px;}
+.section6 .inform{font-size: 24px;color: gray;position: relative;left: 1rem;letter-spacing: 1px;}
+.section6 .a25 a{text-decoration: none;color: gray;font-size: 14px;padding: 5px 10px ;margin: 5px;}
+.section6 a:hover{border-bottom: 0.2px solid black;transition: 1s;}
+.section6 .contact{font-size: 22px;position: relative;top: 1rem;padding: 0px 10px}
+.section6 .destin{font-size: 24px;color: gray;position: relative;left: 1rem;letter-spacing: 1px;top: 0rem;}
+.white{background-color:}
+.section6 {background: white;width: 100%;height: 66rem;top: -2rem;position: relative;}
+.section6 .link a{text-decoration: none;color: gray;font-size: 14px;position: relative;top: 0rem;left: 2px;margin: 1px;padding: 0px 2px 0px 10px ;}
+.section6 .linked a{color: gray;position: relative;left: 2px;}
+.section6 .linkedd a{color: gray;position: relative;left: 0px;}
+.section6 img{width: 6rem;position: relative;left: 2rem;top: 5rem;}
+.section6 .footer p{position: relative;left: 17rem;top: 0rem;}
+
+.section7 .logo img{width: 2rem;}
+
+.section7 .logo a{border: none;}
+ 
+ 
+
+
+	</style>
+
+
+
+
+</head>
+<body>
+ <div class="section1" >
+<nav class="navbar bg-body-tertiary fixed-top"   >
+  <div class="container-fluid
+  " style="background-color:snow; ">
+ 
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation "style="border: none;">
+      <span class="navbar-toggler-icon"><div class="menu">Menu</div></span>
+    </button>
+    <div class="offcanvas offcanvas-start" tabindex="0" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style=" width:100%;">
+     
+
+
+
+        <hr style="width:100% ;height: 2px; " ><br>
+   
+      
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button><div class="img"><img src="logo.svg" style="width: 5rem;"></div>
+        <hr style="width:100% ;height: 2px;">
+  
+
+      <div class="offcanvas-body" >
+        <ul class="navbar-nav justify-content-flex-grow-4 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><li class="nav-item dropdown">
+           
+            <a class="nav-link active" href="desti.html">Destination</a>
+            <a class="nav-link active" href="">Hotels & Resorts</a>
+            <a class="nav-link active" href="experience.html">Experience</a>
+            <a class="nav-link active" href="#">Exculsive offers</a>
+            <a class="nav-link active" href="#">Festival</a>
+            <a class="nav-link active" href="#">Villas</a>
+            <a class="nav-link active" href="#">Residence</a>
+            <a class="nav-link active" href="#">Yachts</a>
+            <a class="nav-link active" href="#">Private Travel</a>
+            <a class="nav-link active" href="#">Stories</a>
+            <a class="nav-link active" href="#">About Us</a>
+            <a class="nav-link active" href="#">Gift Card</a>
+            <a class="nav-link active" href="#">Aman shop</a>
+            <a class="nav-link active" href="#">Aman Interiors</a>
+           <br><br>
+           <a class="nav-link active" href="#">Janu</a>
+          
+         
+         
+            </li>
+            </ul>
+          </li>
+        </ul>
+    
+        <h6>Discover Aman in...</h6>
+        <button class="btn">USA & the Caribbean</button>
+        <button class="btn">Europe & North Africa</button><br><br>
+        <button class ="btn1">Asia</button>
+
+
+      </div>
+    </div>
+
+
+<nav class="navbar" style="position: relative; top: -20%; " >
+  <div class="container-fluid">
+   
+ 
+    <div class="offcanvas offcanvas-start " tabindex="1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="width: 60%;">
+      <div class="offcanvas-header">
+       
+        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="" style="position: relative; left:90%;" ></button>
+      </div>
+      <div class="offcanvas-body ">
+        
+        <form class="d-flex " ><br><h6 style="position:relative;width: 50%; top:50px;left: 2%; ">Search here</h6>
+        
+          <input type="Search" class="Search"  style="border:none;border-bottom: 1px solid gray; width: 700px; position: relative; top:70px; left:-15% ;" placeholder="Enter  serach term ">
+
+          <button class="btn btn-dark" type="submit" style="position:relative; left: -10px;top: 150px; padding:7px 50px;">Search </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</nav></div>
+
+
+<br><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"style="position: relative; top:-95px;left: 16%;">
+
+
+
+      <span class="logo" ><svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"  style="position: fixed;top: 1rem;">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></span>
+
+
+    </button><br>
+
+<div class="head"><img src="logo.svg" style="position: relative;position: fixed; top: -5rem;"></div>
+</div>
+
+  </div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+<video controls=""preload=""autoplay= "" poster="https://cf-images.eu-west-1.prod.boltdns.net/v1/jit/5814665388001/2c1801f6-1919-47d0-a587-cc20aa7ba78b/main/1920x1080/32s554ms/match/image.jpg"> 
+<source src="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEF5eG5KdjlLSkJzVXc3T2lGY0xsMWR3cFlnUXxBQ3Jtc0ttdlhOdGM5bmozbEpNemhZUXZvN1hDRWRSclBBS3BKc2ZlUG5xMFNYQ3E1TzhmMlNETVktbC16Yk04b3pLMktLU1RlWVEzOHY5U3FjaHlWajJhaFlSWXVqWkJZOHI1bFoxQlRPZThlYU9kMVM0SGFyVQ&q=https%3A%2F%2Fwww.aman.com%2Fresorts%2Famanjena&v=BNFkN3z4Nhk" type="video/mp4"></video>
+
+  <div class="a"><a href="SEASONAL TRAVEL INSPIRATION
+
+">SEASONAL TRAVEL INSPIRATION
+
+</div>
+
+
+
+<div class="
+
+s">
+
+<a href ="">Seeking winter sun</a>
+</div>
+
+<div class="ss"><a href="discovermore">Discover   more</a></div>
+
+
+<br><br><br>
+<div class="sk1">
+  <div class="a60"><img src="1.webp">
+    <br>
+    <a href="hotels ">Hotels & Resort</a>
+    <h4>
+  Explore the world of Aman</h4><br>
+  <span class="par1">
+  Earth’s remotest destinations are often its most beautiful, and it is in these sacred spaces that Aman has shaped its retreats. From the lofty peaks of Bhutan to the soft sands of Turks & Caicos, enjoy seclusion and privacy in locations of unprecedented serenity and cultural heritage.
+  </span><br><br><br>
+  <a href="explore" class="Explo">Explore destinations
+</a></div>
+  <div class="a40"><img src="2.webp"><br>
+
+<a href="F">   FEATURED DESTINATION</a>
+  <h5>Aman Tokyo, Japan</h5>
+  <p class="para2">
+From the heights of the Otemachi Tower,<br> Aman Tokyo tempers urban dynamism with <br>a profound atmosphere of serenity.</p>
+<li class="dis"><a href="">Discover Aman Tokyo
+.</a></li>
+
+  </div>
+</div>
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+
+
+
+<div class="container">
+  <div class="mySlides">
+    <img src="3.jpg" style="width:45%">
+    <div class="heading">
+      <h6>MOUNTAINS</h6>
+      <h4>Ski retreats</h4>
+      <p>The purity of winter is nowhere more<br>awe-inspring than in the snow-<br>blanketd moutains of Aman's two<br>ski destination in France and the <br> USA.</p>
+    </div>
+
+  </div>
+
+  <div class="mySlides">
+    <img src="4.jpg" style="width:45%">
+        <div class="heading">
+      <h6>BEACH</h6>
+      <h4>By the coast</h4>
+     <P> Fringing the ocean and embracing a <br>freer pace of life.Aman's Corsal <br>retreats are spring sanctuaries,<br>whether seeking romance.<br> reconnection or a sarene time out.</P>
+    </div>
+  </div>
+
+
+  <div class="mySlides">
+  
+    <img src="5.jpg" style="width:45%">
+    <div class="heading">
+    <h6>CITY</h6>
+      <h4>Urban escape</h4>
+     <p>From the sprawling meteropolise of<br>New York and Tokoyo to Italic Vento.<br>Aman's urban sanctuarnesallow the<br>notion of escapism to be expereinced<br>in the world's great cities.</p>
+    </div>
+  </div>
+    
+  <div class="mySlides">
+ 
+    <img src="6.webp" style="width:45%">
+
+      <div class="heading">
+    <h6>VILLAS</h6>
+      <h4>Group getways</h4>
+     <p>Aman's private Villas offer travellers<br>opprotunties to savour precious time<br>with family and friends,or simply to<br>escape into romantics seclusion in the <br>world's most beautiful setting.</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="7.jpg" style="width:45%">
+
+      <div class="heading">
+    <h6>AMANJENA & AMANGIRI</h6>
+      <h4>Desert retreats</h4>
+     <p>Dramtic deserts make natural<br>backgrounds for Aman hotels and <br>resorts with adventure waiting to be<br>unearthed in the red-stained rocks<br>seclued landsacape.</p>
+    </div>
+  </div>
+    
+  <div class="mySlides">
+    
+    <img src="8.jpg" style="width:45%">
+       <div class="heading">
+    <h6>CAMPUS & SAFARIS</h6>
+      <h4>Into the wilderness</h4>
+    <p>From the tiger-inhabited jungle of<br> Ranthabore National Park to the <br>starkly beautiful Utah desert,and a <br>tropical island in Indonsia,Aman's<br> campus and safaris officer offer a sense of<br>escapism and adventure.</p>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    
+    <img src="9.webp" style="width:45%">
+       <div class="heading">
+    <h6>CELEBRATIES & EVENTS</h6>
+      <h4>Space to insipre</h4>
+     <p> To gather with friends and family at<br>Aman is to experience a sense of<br>privacy ,peace and belonging in some<br>of te world' most unique<br>destiations.</p>
+    </div>
+  </div>
+
+
+   
+
+
+
+    
+
+
+  <div class="caption-container">
+
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="3.jpg" style="width:65% ;height: 8rem;" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4.jpg"  style="width:65% ;height: 8rem;" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="5.jpg"  style="width:65% ;height: 8rem;" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="6.webp" style="width:65% ;height: 8rem;" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="7.jpg"  style="width:65% ;height: 8rem;" onclick="currentSlide(5)" >
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="8.jpg"  style="width:65% ;height: 8rem;" onclick="currentSlide(6)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="9.webp" style="width:65% ;height: 8rem;" onclick="currentSlide(7)">
+    </div>
+  </div>
+</div>
+
+
+<br><br><br>
+
+<div class="section2">
+  <div class="a33"><img src="10.webp">
+    <a href="about">ABOUT US</a>
+    <h5>The spirit of Aman</h5>
+    <p>Time with Aman is akin to being welcomed<br>into a gracious private home where only a<br>few guests are received.Aman's discreet<br>sanctuaries and sapaces are sensitive and<br>autentic to geography,design and cultural<br>heritage-every experience gently unfolds<br> with simplicity and elegance providing an<br>immediate sense of belonging.</p><br>
+    
+    <a href="discover">discovermore</a>
+
+
+
+  </div>
+
+
+  <div class="a33"><img src="11.webp">
+    <a href="abou">GRAND GESTURES</a>
+    <h5>Aman Gift Card</h5>
+    <p>Give the gift of future travel with an Aman<br>Gift Card.Both digital and physical gift cards<br>can be purchased exclusively online and<br>redeemed at Aman destinations aacross the<br>globe.</p>
+     <br><br><br>
+     <a href="shopnow">shop now</a>
+  </div>
+  <div class="a33"><img src="12.webp">
+     <a href="abou">AMAN SHOP</a>
+    <h5>Fine Fragrance Duos</h5>
+    <p>Inspired by the exotic aromatics of Aman<br>destinations across the globe and encased in<br>an excusive gift box,new Fine Fragrance<br>Duos pair a full-sized Aman perfume with a candle in a corresponding scent-an<br>exceptional gift this festive season.</p>
+     <br><br><br>
+     <a href="SHOP">shop now</a>
+  </div>
+</div>
+
+<div class="section3">
+  <h2>Featured story</h2><br><br><br> <br><br><br><br><br>
+  <div class="a60"><img src="13.jpg"></div>
+  <div class="a40">
+    <h6>NEW & NOTEWORTHY</h6>
+    <h5>Where mountains meet</h5>
+    <P>Having travelled across Asia, Aman’s<br> original home, international<br> photographer Chris Colls turns his <br>lens to Europe’s Alps, continuing his <br>visual journey at Aman Le Mélézin in<br> Courchevel 1850, amidst the soul-<br>stirring solitude of Les Trois Vallées.</P>
+<hr>
+  </div>
+  <a href="read">Read story</a>
+</div>
+<br><br><br><br><br><br>
+
+<div class="section4">
+  <h3>New & noteworthy</h3>
+
+  <div class="a33"><img src="14.webp">
+      <div class="heading1">
+    <h6>INTRODUCING AMAN INTERIORS</h6>
+    <h5>The essence oh home</h5>
+    <p>Since 1988,when Amanpuri opend<br>on Thailand's shores.Aman has grown<br>to become an industry leader in the<br>creation of understand,elegant and<br>architeturally designed<br>environments.Bulding this legacy.<br>Aman interiors now bring the essence of Aman into the home.</p></div>
+     
+  </div>
+  <div class="a33"><img src="15.webp">
+    <div class="heading1">
+    <h6>INTRODUCING JANU TOKYO</h6>
+    <h5>Ig Aman is sanctuary-<br>Janu is connectedness</h5>
+    <P>Making an energising new era for<br>hospitality,Aman-synonymous with<br>peace-is delighted to announce that<br>Janu-meaning soul in sanskrit-will<br>unveil its first hotel in March 2024.</P>
+  </div>
+</div>
+  <div class="a33"><img src="16.jpg">
+    <div class="heading1">
+    <h6>AMAN ESSENTIALS</h6>
+    <h5>The Aman Cabana</h5>
+    <P>In celebration of Aman 35<sup>th</sup><br>anniversary,Aman Essential paresnts<br>the Aman  Cabana.,an immersive pop.<br>up boutique set to traverse the Aman<br>globe.Be the first to shop the cabina<br>at Amanpuri s it makes it debut from <br>15 December is February 2024.</P>
+  </div>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="white"> 
+<div class="section5">
+  <div class="heading3">
+<h4>Get inspired</h4>
+<p>To receive updates about exclusive experiences, events, new<br> destinations and more, please register your interest.</p>
+<div class=sign><a href=""><button>signup</button></a></div>
+</div>
+</div>
+<hr>
+<div class="section6" >
+<div class="a25"><div class="inform">More information</div><br>
+<a href="agroup">Aman Group</a><br>
+<a href="">Aman</a><br>
+<a href="">- Aman Essentials</a><br>
+<a href="">- Aman Interiors</a><br>
+<a href="">- Janu</a><br>
+<a href="">Contact Us</a><br>
+<a href="">Gift Card</a><br>
+<a href="">Forthcoming Developments</a><br>
+<a href="">Careers</a><br>
+<a href="">Leadership</a><br>
+<a href="">Sustainability</a><br>
+<a href="">Privacy Notice</a><br>
+<a href="">Cookie Policy</a><br>
+<a href="">Legal Notice</a><br>
+<a href="">Digital Accessibility</a><br>
+<div class="contact">Contact Us</div><br>
+<a href="">Call reservations</a>
+
+
+
+</div>
+
+
+
+<div class="a25"><div class="destin">Destinations</div><br>
+<div class="link"><a href="">Americas & Caribbean</a><br>
+<a href="">Amanera, Dominican Republic</a><br>
+<a href="">Amanvari, Opening 2025</a><br>
+<a href="">Amanyara, Turks & Caicos<br>Islands</a><br>
+<a href="">Aman Beverly Hills, Opening<br> 2026</a><br>
+<a href="">Aman Miami Beach, Opening <br>2026</a><br>
+<a href="">Aman New York, United States</a><br>
+<a href="">Amangani, United States</a><br>
+<a href="">Amangiri, United States</a><br><br><br>
+<a href="">Europe & Africa</a><br>
+<a href="">Aman Le Mélézin, France</a><br>
+<a href="">Amanzoe, Greece</a><br>
+<a href="">Aman Venice, Italy</a><br>
+<a href="">Rosa Alpina, Italy</a><br>
+<a href="">Aman Sveti Stefan,</a><br>
+<a href="">Montenegro</a><br>
+<a href="">Amanjena, Morocco</a><br>
+<a href="">Amanruya, Turkey</a><br>
+<a href="">Aman Spa at The Connaught,</a><br>
+<a href="">United Kingdom</a></div></div>
+
+
+
+
+<div class="a25"><div class="blank"></div><br><br>
+<div class="linked"><a href="">Asia</a><br>
+<a href="">Amankora, Bhutan</a><br>
+<a href="">Amansara, Cambodia</a><br>
+<a href="">
+Aman Summer Palace, China</a><br>
+<a href="">Amandayan, China</a><br>
+<a href="">Amanfayun, China</a><br>
+<a href="">Amanyangyun, China</a><br>
+<a href="">Aman-i-Khas, India</a><br>
+<a href="">Amanbagh, India</a><br>
+<a href="">Aman Villas at Nusa Dua,<br>indonesia</a><br>
+<a href="">Amandari, Indonesia</a><br>
+<a href="">Amandira, Indonesia</a><br>
+<a href="">Amanjiwo, Indonesia</a><br>
+<a href="">Amankila, Indonesia</a><br>
+<a href="">Amanwana, Indonesia</a><br>
+<a href="">Aman Kyoto, Japan</a><br></div>
+
+</div>
+
+
+<div class="a25"><br><br><div class="likedd"> 
+<a href="">Asia (continued).</a><br>
+<a href="">Aman Niseko, Opening 2027</a><br>
+<a href="">AmanResidences,Tokyo,japan</a><br>
+<a href="">Aman Tokyo, Japan</a><br>
+<a href="">Amanemu, Japan</a><br>
+<a href="">Amantaka, Laos</a><br>
+<a href="">Amanpulo, Philippines</a><br>
+<a href="">Amangalla, Sri Lanka</a><br>
+<a href="">Amanwella, Sri Lanka</a><br>
+<a href="">Aman Nai Lert Bangkok,</a><br>
+<a href="">Opening 2024</a><br>
+<a href="">Amanpuri, Thailand</a><br>
+<a href="">Amanoi, Vietnam</a><br>
+
+</div></div>
+<hr>
+ <div id="img"><img src="form.png"></div>
+
+
+<div class="footer">
+   <p>Follow us on:</p> </div>
+    
+    <div class="section7">  <div class="logo"><a href=""><img src="facebook.svg"></a></div>
+   <div class="logo"><a href=""><img src="twitter.svg"></div>
+   <div class="logo"><a href=""><img src="instagram.svg"></div>
+   <div class="logo"><a href=""><img src="youtube.svg"></div>
+   <div class="logo"><a href=""><img src="pinterest.svg"></a></div>
+   <div class="logo"><a href=""><img src="line.svg"></a></div>
+   <div class="logo"><a href=""><img src="wechat.svg"></a></div>
+   <div class="logo"><a href=""><img src="whatsapp.svg"></a></div>
+ 
+   <div class="end">Copyright 2024, Aman Group S.a.r.l. </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script >
+  
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+</script>
+
+
+
+
